@@ -1,5 +1,5 @@
 import torch
-import sys
+import sys,os
 
 from diffusers import LongCatImagePipeline,LongCatImageTransformer2DModel
 from peft import PeftModel
